@@ -1,0 +1,84 @@
+@import url(_nav-top.css);
+@import url(_slide-bar.css);
+@import url(_shipping.css);
+@import url(_ads.css);
+@import url(_cats.css);
+@import url(_s-offers.css);
+@import url(_best-sellers.css);
+@import url(_banners.css);
+@import url(_protein.css);
+@import url(_bicycle.css);
+@import url(_banner2.css);
+@import url(_high-heels.css);
+@import url(_brands.css);
+@import url(_footer.css);
+@import url(_product-page-dishwasher.css);
+
+/* reset */
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+/* utilities */
+.bg-light-gray{
+    background-color: #efefef!important;
+}
+.bg-gray{
+    background-color: rgb(107, 105, 105);
+}
+.text-blue{
+    color: blue;
+}
+.mt-10{
+    margin-top: 6rem;
+}
+.mb-10{
+    margin-bottom: 6rem;
+}
+.pb-10{
+    padding-bottom: 6rem;
+}
+.pt-10{
+    padding-top: 6rem;
+}
+.py-1-2{
+padding-top: 0.375rem !important;
+  padding-bottom: 0.375rem !important;
+}
+
+/* main-title utility */
+.main-title-container .main-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    position: relative;
+}
+
+.main-title-container .main-title::before, .main-title-container .main-title::after{
+    content: '';
+    width: 35px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 14px;
+}
+.main-title-container .main-title::before{
+    left: -45px;
+}
+.main-title-container .main-title::after{
+    right: -45px;
+}
+/* media query */
+@media (min-width: 768px) {
+  .mb-md-0 {

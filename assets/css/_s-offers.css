@@ -1,0 +1,58 @@
+
+
+
+.s-offers-nav-tabs .nav-link.active{
+    color: rgb(238, 10, 10);
+    background-color: transparent;
+    border-color: transparent;
+}
+.s-offers-nav-tabs .nav-link{
+    color: rgb(59, 59, 59);
+}
+.s-offers-tab-content .image{
+    max-width:250px;
+    height: 270px;
+    overflow: hidden;
+}
+.s-offers-tab-content .image, .s-offers-tab-content .content{
+    margin: auto;
+    font-size: 15px;
+    font-weight: 600;
+}
+.s-offer-rating{
+    color: rgb(204, 204, 41);
+    margin-top: 10px;
+}
+.s-offers-tab-content .content a{
+    color: black;
+}
+.s-offers-tab-content .price s{
+    color: red;
+    margin:0 5px;
+}
+.s-offers-text-gray{
+    color: rgb(134, 133, 133);
+}
+.s-offers-timer{
+    background-color: #efefef;
+    color: rgb(35, 116, 55);
+}
+#not-expired-s-offer{
+    display: none;
+}
+#expired-s-offer{
+    color: red;
+    background-color: burlywood;
+    font-weight: 800;
+    font-size: 65px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.s-offers-tab-content .image:hover img{
+    transform: translateY(-280px);
+}
+.s-o-box-shadow{
+    box-shadow: 0 0 4px 1px #b7b4b4;
+}

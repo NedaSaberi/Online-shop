@@ -1,0 +1,63 @@
+
+.best-sellers-container .owl-carousel img{
+    max-width: 180px;
+    align-self: center;
+    
+}
+
+.best-sellers-owl-carousel .card{
+    border: none;
+    margin: 2px;
+}
+.best-sellers-owl-carousel .card:hover{
+    box-shadow: 0 0 2px 4px #efefef;
+}
+.best-sellers-container .card-text{
+    font-size: 12px;
+    color: rgb(82, 80, 80);
+}
+.b-card-wrapper .card .badge{
+    top: 140px;
+    right: 40px;
+    transform: rotate(45deg);
+    font-size: 20px;
+}
+.b-card-wrapper .card .price{
+    color: black;
+}
+.b-card-wrapper .card .card-body .price .old-price{
+    margin-right: 10px;
+    color: red;
+}
+.b-card-wrapper .card .price .new-price{
+    font-size: 20px;
+    font-weight: 600;
+}
+.b-card-wrapper .owl-carousel .owl-nav{
+    position: relative;
+}
+.best-sellers-container .owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    left: -60px;
+    top: 250px;
+}
+.best-sellers-container .owl-carousel .owl-nav .owl-prev span{
+    font-size: 60px;
+}
+
+  .best-sellers-container .owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    right: -60px;
+    top: 250px;
+  }
+    .best-sellers-container .owl-carousel .owl-nav .owl-next span{
+        font-size: 60px;
+    }
+    .best-sellers-container .owl-carousel .owl-nav .owl-prev:hover, .best-sellers-container .owl-carousel .owl-nav .owl-next:hover{
+    background-color: transparent;
+    color: rgb(119, 116, 116);
+}
+
+
+
+

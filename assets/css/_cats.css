@@ -1,0 +1,14 @@
+.cats-wrapper{
+    min-height: 80px;
+    padding: 0;
+}
+.cats-wrapper img{
+    width: 80px;
+    height: 80px;
+}
+.cat-hover{
+    transition: all .3s ease;
+}
+.cat-hover:hover{
+    box-shadow: 0 0 6px 0px #c3bdbd;
+}

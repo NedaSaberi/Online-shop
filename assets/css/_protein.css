@@ -1,0 +1,34 @@
+.protein-container .p-card-wrapper .card{
+    max-width: 200px;
+}
+.protein-container .p-card-wrapper .card .img-wrapper{
+    height: 200px;
+}
+.protein-container .owl-carousel img{
+    height: 100%;
+    width: 100%;
+}
+.protein-container .p-card-wrapper .card .card-text{
+    font-size: 12px;
+}
+.p-card-wrapper .card .badge{
+    bottom:20px ;
+    right: 0px;
+    transform: rotate(45deg);
+    font-size: 20px;
+}
+.p-card-wrapper .card .price{
+    color: black;
+}
+.p-card-wrapper .card .card-body .price .old-price{
+    margin-right: 10px;
+    color: red;
+}
+.p-card-wrapper .card .price .new-price{
+    font-size: 20px;
+    font-weight: 600;
+}
+.p-card-wrapper .protein-btn-color{
+    background-color: rgb(105, 117, 85);
+    color: #fff;
+}

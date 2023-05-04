@@ -1,0 +1,103 @@
+.dish-product-page-container-fluid{
+    margin-bottom: 300px;
+    max-width: 80%;
+}
+.dish-product-page-container-fluid h3{
+    font-weight: 700;
+}
+/* .dish-product-page-container-fluid .carousel-control-prev-icon, .dish-product-page-container-fluid .carousel-control-next-icon{
+    background-color: black;
+} */
+.zoom-thumb-hide .zoom-main {height:100%;}
+.zoom-main span {
+    background-size:300%;
+    border: none;
+}
+.dish-product-page-container-fluid .dish-product-page-container .buy {
+    margin-top: 150px;
+}
+.dish-product-page-container-fluid .dish-product-page-container .buy input{
+    margin: 0 10px;
+    border: 1px solid rgb(128, 126, 126);
+    width: 40px;
+    outline: none;
+}
+.dish-product-page-container-fluid .dish-product-page-container .buy button{
+
+}
+.dish-product-page-container-fluid .dish-product-page-container .star-rating i{
+    color: rgb(206, 206, 6);
+}
+.dish-product-page-container-fluid .dish-product-page-container .star-rating .text{
+    margin-left: 20px;
+}
+.dish-product-page-container-fluid .dish-product-page-container .icons a i{
+    font-size: 18px;
+    margin-left: 8px;
+    color: rgb(121, 118, 118);
+}
+.dish-product-page-container-fluid .dish-product-page-container .description{
+    font-size: 16px;
+    color: rgb(97, 95, 95);
+}
+.dish-product-page-container-fluid .dish-product-page-container .r{
+    margin-left: 15px;
+}
+.dish-product-page-container-fluid .dish-product-page-container .r .txt{
+    color: rgb(97, 95, 95);
+}
+.dish-product-page-container-fluid .dish-product-page-container .r .title{
+    font-weight: 650;
+}
+.dish-product-page-container .tabs .nav-tabs .nav-item .active{
+    border-top: 3px solid red!important;
+}
+.dish-product-page-container .bar-rates .title{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.dish-product-page-container .container-feature .title{
+    font-size: 30px;
+    font-weight: 700;
+    color: darkolivegreen;
+    margin:100px 0 50px;
+}
+.dish-product-page-container .row-spe .specifacations{
+    font-size: 18px;
+    transition: all .3s ease;
+    text-align: left;
+    padding: 0;
+    border: none!important;
+}
+.dish-product-page-container .row-spe .specifacations:hover{
+    transform: translateX(20px);
+}
+.dish-product-page-container .reviews .flex-shrink-0{
+    width: 80px;
+}
+.dish-product-page-container .opinion-txt .far{
+    display: inline;
+    margin: 0 5px 0 5px;
+}
+.dish-product-page-container .opinion .title{
+    background-color: rgb(74, 117, 74);
+    color: #fff;
+    padding: 6px;
+    margin-bottom: 10px
+}
+/* Shrink wrap strategy 1 */
+.easyzoom {
+    float: left;
+}
+.easyzoom img {
+    display: block;
+}
+
+
+/* Shrink wrap strategy 2 */
+.easyzoom {
+    display: inline-block;
+}
+.easyzoom img {
+    vertical-align: bottom;
+}

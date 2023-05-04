@@ -1,0 +1,11 @@
+.banner2-container .banners .image{
+    height: 180px;
+    overflow: hidden;
+}
+.banner2-container .banners img{
+    height: 100%;
+    transition: .2s ease;
+}
+.banner2-container .banners:hover img{
+    transform: scale(1.1);
+}

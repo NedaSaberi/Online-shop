@@ -1,0 +1,21 @@
+.bi-card-wrapper .bi-btn-color{
+background-color: rgb(206, 123, 28);
+color: #fff;
+}
+.bi-card-wrapper .card .badge{
+    bottom: 20px;
+    right: 40px;
+    transform: rotate(45deg);
+    font-size: 20px;
+}
+.bi-card-wrapper .card .price{
+    color: black;
+}
+.bi-card-wrapper .card .card-body .price .old-price{
+    margin-right: 10px;
+    color: red;
+}
+.bi-card-wrapper .card .price .new-price{
+    font-size: 20px;
+    font-weight: 600;
+}

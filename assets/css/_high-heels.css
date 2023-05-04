@@ -1,0 +1,41 @@
+
+.high-heels-container .hh-card-wrapper .card{
+    max-width:200px ;
+}
+.high-heels-container .hh-card-wrapper .card .hh-img-wrapper{
+    height: 200px;
+    width: 100%;
+}
+.high-heels-container .hh-card-wrapper .card .hh-img-wrapper img{
+height: 100%;
+width: 100%;
+/* align-self: center; */
+}
+.high-heels-container .card-text{
+    font-size: 12px;
+}
+.hh-card-wrapper .card .badge{
+    bottom:20px ;
+    right: 0px;
+    transform: rotate(45deg);
+    font-size: 20px;
+}
+.hh-card-wrapper .card .price{
+    color: black;
+}
+.hh-card-wrapper .card .card-body .price .old-price{
+    margin-right: 10px;
+    color: red;
+}
+.hh-card-wrapper .card .price .new-price{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hh-card-wrapper .protein-btn-color{
+    background-color: rgb(105, 117, 85);
+    color: #fff;
+}
+.high-heels-container .hh-btn-color{
+    background-color: rgb(152, 173, 30);
+    color: #fff;
+}
