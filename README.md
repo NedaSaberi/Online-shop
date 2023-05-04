@@ -11,7 +11,7 @@ Usage
 The online shop simulation includes the following features:
 
 A home page with featured products and a search bar.
-A product page with details about individual products, including name, description, price, and availability.
+A product page with details about individual products, including name, description, price, and availability. (this product page was yet designed just for one of the products which is in Home appliance/Dishwasher)
 A shopping cart page where users can view and modify their selected products.
 
 Examples
